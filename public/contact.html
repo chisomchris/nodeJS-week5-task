@@ -1,83 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Me</title>
-  <style>
-    *{
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      list-style-type: none;
-      outline: none;
-      text-decoration: none;
-      font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      color: #333;
-    }
-    header{
-      background-color: #333;
-      color: #fff;
-    }
-    header nav{
-      margin-left: auto;
-      margin-right: auto;
-      max-width: 1200px;
-      padding: 1rem;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-    main section{
-      margin-left: auto;
-      margin-right: auto;
-      max-width: 1200px;
-      padding: 1rem;
-    }
-    header ul{
-      display: flex;
-      justify-content: center;
-      gap: 1rem;
-    }
-    nav a{
-      font-weight: bold;
-      color: #fff;
-    }
-    nav a span{
-      color: #5cdeff;
-    }
-    nav a:hover{
-      color: #5cdeff;
-    }
-  </style>
+  <title>Ezeanyaeche Christian | Contact Me</title>
 </head>
+
 <body>
- <header>
-  <nav>
-    <div class="logo">
-      <a href="/">&lt; CHISOM<span>CHRIS</span> /&gt;</a>
-    </div>
-    <ul>
-      <li>
-        <a href="/">Home</a>
-      </li>
-      <li>
-        <a href="/about">About</a>
-      </li>
-      <li>
-        <a href="/contact">Contact</a>
-      </li>
-    </ul>
-  </nav>
- </header>
-  
-   <main>
+  <header>
+    <nav>
+      <ul>
+        <li>
+          <a href="/">Home</a>
+        </li>
+        <li>
+          <a href="/about">About</a>
+        </li>
+        <li>
+          <a href="/contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
     <section>
       <h1>Reach Out to Me</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit ut, ducimus dignissimos dicta ex deserunt ab adipisci accusantium laboriosam repellat consequatur est amet maxime optio nobis veniam assumenda error dolores!</p>
+      <form action="./home.html">
+        <div class="input-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your Name">
+        </div>
+        <div class="input-group">
+          <label for="name">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your Email">
+        </div>
+        <div class="input-group">
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="subject (optional)">
+        </div>
+        <div class="input-group">
+          <label for="message">Your message</label>
+          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </div>
+        <div class="submit">
+          <button type="submit">Send</button>
+        </div>
+      </form>
     </section>
-   </main>
-    
-  </body>
+
+    <section>
+      <h2>Socila Media</h2>
+      <ul>
+        <li><a href="https://www.facebook.com/ezeanyaeche.christian">facebook.com/ezeanyaeche.christian</a></li>
+        <li><a href="https://twitter.com/XHIZOM" target="_blank">@XHIZOM</a></li>
+        <li><a href="https://www.linkedin.com/in/ezeanyaeche-christian-548aa0219"
+            target="_blank">www.linkedin.com/in/ezeanyaeche-christian</a></li>
+        <li><a href="https://www.instagram.com/ezeanyaechechristian/"
+            target="_blank">www.instagram.com/ezeanyaechechristian</a></li>
+      </ul>
+    </section>
+  </main>
+</body>
+
 </html>
